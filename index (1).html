@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheSecure - Empowering Women</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #ff6b6b;
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #2ec4b6;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            background-image: url('hero-image.jpg'); /* Replace with your hero image */
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            color: white;
+            padding: 20px;
+        }
+        .hero h2 {
+            margin-bottom: 10px;
+        }
+        .hero button {
+            background-color: #1a759f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .hero button:hover {
+            background-color: #023e8a;
+        }
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .section h2 {
+            color: #023e8a;
+            margin-bottom: 20px;
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 1rem;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .card h3 {
+            margin-top: 10px;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #2ec4b6;
+            font-weight: bold;
+        }
+        .card a:hover {
+            color: #1a759f;
+        }
+        footer {
+            background: #023e8a;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        footer a {
+            color: #f8f8f8;
+            text-decoration: none;
+        }
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SheSecure</h1>
+        <p>Empowering Women through Sustainable Solutions</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#education">Education</a>
+        <a href="#community">Community Impact</a>
+        <a href="services.html">Services</a> <!-- Added Services Link -->
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Empower Women, Build Communities</h2>
+        <p>Join us in promoting safety, health, and sustainability for women everywhere.</p>
+        <button onclick="location.href='#education'">Learn More</button>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p>SheSecure is a social enterprise dedicated to enhancing women's safety and health by addressing menstrual hygiene challenges in rural areas. Our commitment lies in affordable, sustainable, and community-driven solutions.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section" id="products">
+        <h2>Our Products</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="product-placeholder.jpg" alt="Products"> <!-- Replace with actual image -->
+                <h3>Affordable Kits</h3>
+                <a href="products.html">Explore Products</a>
+            </div>
+            <div class="card">
+                <img src="education-placeholder.jpg" alt="Educational Kits"> <!-- Replace with actual image -->
+                <h3>Educational Resources</h3>
+                <a href="products.html">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educational Hub Section -->
+    <section class="section" id="education">
+        <h2>Educational Hub</h2>
+        <p>We provide free, accessible learning materials to spread awareness about menstrual health and eco-friendly practices.</p>
+        <a href="education.html">Visit the Education Hub</a>
+    </section>
+
+    <!-- Community Impact Section -->
+    <section class="section" id="community">
+        <h2>Community Impact</h2>
+        <p>See how SheSecure is making a difference in rural communities, improving menstrual hygiene and empowering women.</p>
+        <a href="community.html">Learn About Our Impact</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to collaborate, please reach out to us.</p>
+        <p>Email: <a href="roshnara_s@srmap.edu.in">roshnara_s@srmap.edu.in</a>
+            <br>contact no:<a href="+91-9997777000">+91-9997777000</a>
+            <br>address: Mangalagiri, Andhra Pradesh, India.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SheSecure | <a href="#contact">Contact Us</a></p>
+    </footer>
+</body>
+</html>
